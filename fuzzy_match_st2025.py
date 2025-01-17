@@ -75,6 +75,8 @@ import streamlit as st
 import pandas as pd
 from fuzzywuzzy import fuzz
 from fuzzywuzzy import process
+from rapidfuzz import fuzz, process
+
 from time import sleep
 
 # Streamlit app
